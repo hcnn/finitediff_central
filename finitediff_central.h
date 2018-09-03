@@ -1,9 +1,11 @@
 #ifndef FINITEDIFF_CENTRAL_H
 #define FINITEDIFF_CENTRAL_H
 
-void finitediff_central(double (*)(double*, int), 
+#include <stddef.h>
+
+void finitediff_central(double (*)(const double*, size_t), 
                         double *, 
-                        int , 
+                        size_t , 
                         double , 
                         double *);
 
