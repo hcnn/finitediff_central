@@ -1,9 +1,12 @@
 {
   "name": "finitediff_central",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "repo": "hcnn/finitediff_central",
   "description": "Central Finite Difference Method",
   "keywords": ["finite differences", "central fdm", "fdm", "partial differentiation"],
   "license": "MIT",
-  "src": ["finitediff_central.c", "finitediff_central.h"]
+  "src": ["finitediff_central.c", "finitediff_central.h"],
+  "dependencies": {
+    "hcnn/target_func_ptr": "0.1.0"
+  }
 }
